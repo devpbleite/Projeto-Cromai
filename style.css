@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.main-box{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #201b2C;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+.left-box{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-box > h1{
+  font-size: 3vw;
+  color: #77ffc0;
+}
+
+.left-image{
+  width: 35vw;
+}
+
+.container{
+  width: 60vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.card-box{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: #2f2841;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+}
+
+.title{
+  color: #00ff88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  font: bold 2.2rem sans-serif;
+  border-bottom: solid 5px #00ff88;
+  margin-bottom: 20px;
+}
+
+.input {
+  color: #f0ffffde;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+    
+}
+
+.input input {
+  color: #2b134b;
+  width: 100%;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border:none;
+  outline: 0;
+  font: bold 1.5rem sans-serif;
+  text-align: center;
+  background: #f0ffffde;
+  box-shadow: 0px 0px 10px #000;
+      
+}
+
+.input label {
+  font: bold 1.4rem sans-serif;
+
+}
+
+button{
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #2b134b;
+  background: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.result{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  font: italic 1.2rem;
+  box-shadow: 0px 0px 10px black;
+  background: #514869;
+  color: #f0ffffde;
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+
+
+.left-box {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.left-image {
+  width: 50vh;
+}
+
+.card-box{
+  width: 90%;
+}
+
