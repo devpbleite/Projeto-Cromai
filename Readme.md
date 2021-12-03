@@ -1,3 +1,1 @@
-# Github
-
-- Git init
+Projeto criado para o desafio Cromai. O projeto é uma calculadora que faz a relação entre os catetos e retorna o valor da hipotenusa, o Teorema de Pitágoras. Para a base do projeto eu usei o HTML como estrutura, passando pelo CSS para fazer o style e por último, usando o Javascript para fazer a função que faz o cálculo que retorna nossa resposta.
